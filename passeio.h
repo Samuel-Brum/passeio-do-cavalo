@@ -3,10 +3,15 @@
 #include <string.h>
 #include <stdlib.h>
 
+#define index(i,j) i*N + j
 #define FALSE -1
 #define TRUE 1
 #define N 5
-#define index(i,j) i*N + j // facilita construção e chamada de índices de matrizes 
+
+typedef struct {
+    int linha;
+    int coluna;
+}coordenada ;
 
 void cria_tabuleiro(int* tabuleiro) {
     int tamanho = N * N;
@@ -16,60 +21,86 @@ void cria_tabuleiro(int* tabuleiro) {
     }
 } // atribui tabuleiro NxN com valores nulos
 
-int* movimentos_validos(int posicao, int* tabuleiro) {
+void imprime_tabuleiro(int* tabuleiro) {
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++) {
+            printf("%d ", tabuleiro[index(i, j)]);
+
+        }
+    printf("\n");
+    }
+    printf("\n");
+}
+
+void movimento_invalido (coordenada* movimento) {
+    movimento->linha = FALSE;
+    movimento->coluna = FALSE;
+}
+
+int passo (int* tabuleiro, int turno, int posicao) {
     int linha = posicao / N;
     int coluna = posicao % N;
-    int movimentos[] = {index(linha-2, coluna+1), index(linha-1, coluna+2),
-                        index(linha+1, coluna+2), index(linha+2, coluna+1),
-                        index(linha+2, coluna-1), index(linha+1, coluna-2),
-                        index(linha-1, coluna-2), index(linha-2, coluna-1)}; 
-    // lista movimentos possiveis a partir de uma posicao especificada
+
+
+    coordenada movimentos[8];
+    int count = 0;
+
+    for (int i = -2; i <= 2; i++) {
+        for (int j = -2; j <= 2; j++) {
+            if (i == j || i == 0 || j == 0 || abs(i) == abs(j)) {
+                continue;
+            }
+            coordenada temp;
+            temp.linha = linha + i;
+            temp.coluna = coluna + j;
+            movimentos[count] = temp;
+            count++;
+        }
+    } // lista movimentos possiveis a partir de uma posicao especificada
 
     for (int i = 0; i < 8; i++) {
-        if (movimentos[i] < 0 || movimentos[i] > (N * N)) {
-            movimentos[i] = FALSE;
-        } else {
-            if (tabuleiro[movimentos[i]] != 0) {
-                movimentos[i] = FALSE;
-            }
+        if (movimentos[i].linha < 0 || movimentos[i].coluna < 0) {
+            movimento_invalido(&movimentos[i]);
+        } if (movimentos[i].linha >= N || movimentos[i].coluna >= N) {
+            movimento_invalido(&movimentos[i]);
         }
-    }
-    return movimentos;
-} // retorna lista de movimentos válidos dada uma posição inicial
+        int casa = index(movimentos[i].linha, movimentos[i].coluna);
+        if (tabuleiro[casa] != 0) {
+            movimento_invalido(&movimentos[i]);
+        }
+    } // retira movimentos que estão fora do tabuleiro
 
-int passo (int* tabuleiro, int turno, int i, int j) {
-    tabuleiro[index(i, j)] = turno;
-    int* movimentos = movimentos_validos(index(i, j), tabuleiro);
-
-    for (int k = 0; k < sizeof(movimentos)/sizeof(int); k++) {
-        if (movimentos[k] != FALSE) {
-            tabuleiro[movimentos[k]] = turno + 1;
-            int linha = movimentos[k] / N;
-            int coluna = movimentos[k] % N;
-
-            if (passo(tabuleiro, turno + 1, linha, coluna)) {
+    for (int i = 0; i < 8; i++) {
+        int casa = index(movimentos[i].linha, movimentos[i].coluna);
+        if (movimentos[i].linha != FALSE) {
+            tabuleiro[casa] = turno + 1;
+            imprime_tabuleiro(tabuleiro);
+            if (passo(tabuleiro, turno + 1, casa)) {
                 return TRUE;
             }
-        tabuleiro[k] = 0; 
+        } else {
+            if (i == 7) {
+                tabuleiro[casa] = 0;
+                return FALSE;
+            }
         }
     }
-    return 0;
+    imprime_tabuleiro(tabuleiro);
 }
 
 
 void passeio (int x, int y) {
     x = x-1; // normaliza a notação para adequar ao formato 
-    y = y-1; // do resto do código (1, 1) -> (0, 0)
+    y = y-1; // do resto do código (1, 1) -> (0, 0) || (3, 2) -> (2, 1) ...
+
+    int posicao_inicial = index(x, y);
 
     int tabuleiro[N * N];
     cria_tabuleiro(tabuleiro);
-
     int turno = 1;
-    passo(tabuleiro, turno, x , y);
-    for (int i = 0; i < N; i++) {
-        for (int j = 0; j < N; j++) {
-            printf("%d ", tabuleiro[index(i, j)]);
-        }
-    printf("\n");
-    }
+    tabuleiro[posicao_inicial] = turno;
+
+    imprime_tabuleiro(tabuleiro);
+
+    passo(tabuleiro, turno, posicao_inicial);
 }

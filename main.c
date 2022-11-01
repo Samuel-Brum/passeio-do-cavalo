@@ -2,5 +2,5 @@
 
 int main(void) {
     passeio(1, 1);
-    passeio(3, 2);
+    printf("\n");
 }
