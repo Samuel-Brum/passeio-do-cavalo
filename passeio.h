@@ -37,7 +37,7 @@ void movimento_invalido (coordenada* movimento) {
     movimento->coluna = FALSE;
 }
 
-int passo (int* tabuleiro, int turno, int posicao) {
+int passo (int* tabuleiro, int turno, int posicao, coordenada* movimento_anterior) {
     int linha = posicao / N;
     int coluna = posicao % N;
 
@@ -74,18 +74,17 @@ int passo (int* tabuleiro, int turno, int posicao) {
         int casa = index(movimentos[i].linha, movimentos[i].coluna);
         if (movimentos[i].linha != FALSE) {
             tabuleiro[casa] = turno + 1;
-            imprime_tabuleiro(tabuleiro);
-            if (passo(tabuleiro, turno + 1, casa)) {
+            //imprime_tabuleiro(tabuleiro);
+            if (passo(tabuleiro, turno + 1, casa, &movimentos[i])) {
+                imprime_tabuleiro(tabuleiro);
                 return TRUE;
             }
-        } else {
-            if (i == 7) {
-                tabuleiro[casa] = 0;
-                return FALSE;
+        } else { // !!! BUGADO AQUI, CONSERTAR !!!
+        
+                }
             }
         }
     }
-    imprime_tabuleiro(tabuleiro);
 }
 
 
@@ -102,5 +101,5 @@ void passeio (int x, int y) {
 
     imprime_tabuleiro(tabuleiro);
 
-    passo(tabuleiro, turno, posicao_inicial);
+    passo(tabuleiro, turno, posicao_inicial, NULL);
 }
