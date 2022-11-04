@@ -9,7 +9,6 @@ int main(void) {
         for (int j = 1; j < N + 1; j++) {
             clock_t begin = clock();
 
-            //passeio(rand() % N + 1, rand() % N + 1);
             passeio(i, j);
 
             clock_t end = clock();
