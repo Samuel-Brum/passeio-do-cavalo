@@ -1,0 +1,169 @@
+\documentclass[
+	twocolumn,
+	12pt,				% tamanho da fonte
+	twoside,			% para impressão em frente e verso. Oposto a oneside ---- Este comando ajusta automaticamente as margens
+	a4paper,			% tamanho do papel. 
+	english,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{article}
+
+% Compilador de arquivos .bib
+\usepackage[
+	backend=biber,
+	style=numeric-comp,
+	sorting=none,
+	]{biblatex}
+
+% Insira arquivo .bib da bibliografia aqui:
+\addbibresource{bibliografia.bib}
+
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}	
+\usepackage{hyphsubst}
+\usepackage{lipsum} 
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[skip=2pt,font=scriptsize]{caption}
+\usepackage{listings}
+\usepackage{algorithm, algpseudocode}
+
+% ----
+% Ajusta as margens
+% ----
+
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	left=3cm,
+	top=3cm,
+	bottom=2cm,
+	right=2cm,
+}
+
+% ----
+% Ajusta o cabeçalho e o rodapé
+% ----
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Samuel Brum Martins}
+\lhead{TP 1 - Matemática Discreta}
+\rfoot{Página \thepage}
+
+\setlength\columnsep{30pt}
+
+\title{Passeio do Cavalo - Heurística de Warnsdoff}
+\author{Samuel Brum Martins}
+\date{}
+
+% ----
+% Início do documento
+% ----
+
+\begin{document}
+
+% Seleciona o idioma do documento 
+% (conforme pacotes do babel)
+% ---------------------------------
+%\selectlanguage{english}
+\selectlanguage{brazil}
+% ---------------------------------
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% Primeira página inclui capa e texto
+{\let\newpage\relax\maketitle}
+\thispagestyle{fancy}
+
+% Escreva aqui \section ou \chapter
+\section*{Introdução}
+O problema do passeio do cavalo é um quebra cabeças milenar,
+útil como exemplo e simplificação de problemas em teoria de grafos.
+
+O problema original consiste em percorrer, com o cavalo,
+todo o tabuleiro de xadrez, passando apenas uma vez por cada casa.
+Podem existir mais de uma solução para uma casa inicial específica e,
+em alguns tabuleiros menores, podem haver casas sem uma única solução.
+
+O algorítmo de \textit{backtracking} consiste em uma abordagem de força bruta
+para solucionar o problema, essecialmente realizando "caminhadas cegas"
+pelo tabuleiro e retrocedendo um passo quando não há mais movimentos.
+Tal abordagem é extremamente ineficiente, já que o problema cresce
+exponencialmente com o tamanho do tabuleiro, pois cada passo possui
+multiplos destrichamentos, cada qual com suas multiplas n-furcações.
+
+Uma forma de contornar tal dificuldade é através de heurísticas,
+regras gerais que abrem mão de algum aspecto de uma solução completa,
+como precisão, optimização, ou completeza por velocidade. 
+
+Uma Heurística notável para o problema do passeio do cavalo é a de Warnsdoff, que consiste
+em escolher o próximo movimento baseado no número de movimentos possíveis
+da casa.
+
+\section*{Implementação}
+A específicação do projeto requeria que uma biblioteca \verb|passeio.h| possuisse
+uma função \verb|void passeio(int x, int y)| que, ao ser chamada, realizasse
+o algorítmo de \textit{backtracking} para o passeio do cavalo em um 
+tabuleiro 8x8, começando da casa de linha $x$ e coluna $y$.
+
+A função passeio como foi implementada serve como casca para a chamada
+da função, onde são ajustados todos os parâmetros necessários, como um
+tabuleiro vazio e uma tabela de consulta para implementar a heurística
+de Warnsdoff. Em seguida, é chamada a função \verb|passo|, que realiza o grosso
+da implementação. Nela é realizado iterativamente o algorítmo de \textit{backtracking}
+a partir da posição inicial da chamada de \verb|passeio|. Em pseudocódigo
+a ideia é apresentada no Algorítmo 1.
+
+\begin{algorithm}
+	\caption{Algorítmo de backtracking para passeio do cavalo}
+	\begin{algorithmic}[1]
+		\Function{Backtracking}{$casa, turno$}
+			\For{$movimento$ in $movimento \space validos$}
+				\State $tabuleiro[casa] \gets turno$
+				\If{$Backtracking(casa + movimento, turno + 1$)}
+					\State \Return True
+				\Else 
+				\State $RetocedeCasa()$
+				\EndIf	
+			\EndFor
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}
+
+Mesmo assim, essa implementação ingênua apresenta um problema de performânce,
+uma vez que a implementação possui $\mathcal{O}(8^{n^2})$, já que para cada 
+casa há até 8 movimentos que o cavalo pode fazer e cada permutação de visitas
+configura um passeio diferente.
+
+Sendo assim, implementou-se também a heurística de Warnsdoff, que consiste
+em ordenar os movimentos possíveis dos quadrados que possuem o menor número
+de movimentos válidos até o maior número de movimentos válidos. O ordenamento 
+deu-se por \verb|BubbleSort|, já que o número de elementos a serem ordenados
+era sempre 8, não justificando a implementação de um sorteamento mais sofisticado. 
+
+O conceito é intuitivo, já que as casas que possuem o menor número de movimentos válidos
+também são as que tem menos pontos de acesso, e portanto são mais prováveis
+de apresentarem gargalos nas tentativas e erro. Priorizando o acesso a essas
+casas, reduzimos a chance de termos que retroceder um passo.
+
+\section*{Conclusões}
+Na implementação ingênua, o programa é até capaz de rodar algumas posições
+iniciais em tempo hábil, com o melhor caso tendo sido em torno de 30 segundos 
+e com casos nos quais o programa rodava por mais de 10 minutos sem sucesso.
+
+Após implementação da heurística o caso médio caiu para frações de segundo, 
+com os piores casos na ordem de alguns poucos segundos, claramente uma melhoria
+de várias ordens de magnitude, demonstrando que, em termos práticos, uma solução
+incompleta pode ser boa o suficiente, a depender da aplicação pretendida.
+
+Os resultados com o formato de saída exigidos e o tempo de cada uma das 
+soluções encontram-se no arquivo \textbf{saida.txt}, seguidas do tempo de execução de cada
+uma delas, em ordem, ambos gerados pelo teste \textbf{main.c}. Ambos arquivos encontram-se na pasta "Apêndices".
+
+
+\printbibliography
+\end{document}

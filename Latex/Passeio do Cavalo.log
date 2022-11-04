@@ -1,0 +1,941 @@
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.8.28) (preloaded format=xelatex 2022.9.21)  4 NOV 2022 18:22
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/home/sam_brum/Documents/UFMG/Graduação - Computação /2022-2/Matemática Disc
+reta/passeio-do-cavalo/Passeio do Cavalo.tex"
+
+(/home/sam_brum/Documents/UFMG/Graduação - Computação /2022-2/Matemática Discre
+ta/passeio-do-cavalo/Passeio do Cavalo.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-04-29>
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
+
+(/home/sam_brum/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/sam_brum/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count189
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/home/sam_brum/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count190
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count191
+\c@listtotal=\count192
+\c@listcount=\count193
+\c@liststart=\count194
+\c@liststop=\count195
+\c@citecount=\count196
+\c@citetotal=\count197
+\c@multicitecount=\count198
+\c@multicitetotal=\count199
+\c@instcount=\count266
+\c@maxnames=\count267
+\c@minnames=\count268
+\c@maxitems=\count269
+\c@minitems=\count270
+\c@citecounter=\count271
+\c@maxcitecounter=\count272
+\c@savedcitecounter=\count273
+\c@uniquelist=\count274
+\c@uniquename=\count275
+\c@refsection=\count276
+\c@refsegment=\count277
+\c@maxextratitle=\count278
+\c@maxextratitleyear=\count279
+\c@maxextraname=\count280
+\c@maxextradate=\count281
+\c@maxextraalpha=\count282
+\c@abbrvpenalty=\count283
+\c@highnamepenalty=\count284
+\c@lownamepenalty=\count285
+\c@maxparens=\count286
+\c@parenlevel=\count287
+\blx@tempcnta=\count288
+\blx@tempcntb=\count289
+\blx@tempcntc=\count290
+\c@blx@maxsection=\count291
+\c@blx@maxsegment@0=\count292
+\blx@notetype=\count293
+\blx@parenlevel@text=\count294
+\blx@parenlevel@foot=\count295
+\c@blx@sectionciteorder@0=\count296
+\blx@entrysetcounter=\count297
+\blx@biblioinstance=\count298
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language1
+\c@mincomprange=\count299
+\c@maxcomprange=\count300
+\c@mincompwidth=\count301
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count302
+\c@savedafterword=\count303
+\c@annotator=\count304
+\c@savedannotator=\count305
+\c@author=\count306
+\c@savedauthor=\count307
+\c@bookauthor=\count308
+\c@savedbookauthor=\count309
+\c@commentator=\count310
+\c@savedcommentator=\count311
+\c@editor=\count312
+\c@savededitor=\count313
+\c@editora=\count314
+\c@savededitora=\count315
+\c@editorb=\count316
+\c@savededitorb=\count317
+\c@editorc=\count318
+\c@savededitorc=\count319
+\c@foreword=\count320
+\c@savedforeword=\count321
+\c@holder=\count322
+\c@savedholder=\count323
+\c@introduction=\count324
+\c@savedintroduction=\count325
+\c@namea=\count326
+\c@savednamea=\count327
+\c@nameb=\count328
+\c@savednameb=\count329
+\c@namec=\count330
+\c@savednamec=\count331
+\c@translator=\count332
+\c@savedtranslator=\count333
+\c@shortauthor=\count334
+\c@savedshortauthor=\count335
+\c@shorteditor=\count336
+\c@savedshorteditor=\count337
+\c@labelname=\count338
+\c@savedlabelname=\count339
+\c@institution=\count340
+\c@savedinstitution=\count341
+\c@lista=\count342
+\c@savedlista=\count343
+\c@listb=\count344
+\c@savedlistb=\count345
+\c@listc=\count346
+\c@savedlistc=\count347
+\c@listd=\count348
+\c@savedlistd=\count349
+\c@liste=\count350
+\c@savedliste=\count351
+\c@listf=\count352
+\c@savedlistf=\count353
+\c@location=\count354
+\c@savedlocation=\count355
+\c@organization=\count356
+\c@savedorganization=\count357
+\c@origlocation=\count358
+\c@savedoriglocation=\count359
+\c@origpublisher=\count360
+\c@savedorigpublisher=\count361
+\c@publisher=\count362
+\c@savedpublisher=\count363
+\c@language=\count364
+\c@savedlanguage=\count365
+\c@origlanguage=\count366
+\c@savedoriglanguage=\count367
+\c@pageref=\count368
+\c@savedpageref=\count369
+\shorthandwidth=\skip57
+\shortjournalwidth=\skip58
+\shortserieswidth=\skip59
+\shorttitlewidth=\skip60
+\shortauthorwidth=\skip61
+\shorteditorwidth=\skip62
+\locallabelnumberwidth=\skip63
+\locallabelalphawidth=\skip64
+\localshorthandwidth=\skip65
+\localshortjournalwidth=\skip66
+\localshortserieswidth=\skip67
+\localshorttitlewidth=\skip68
+\localshortauthorwidth=\skip69
+\localshorteditorwidth=\skip70
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count370
+\c@textcitetotal=\count371
+\c@textcitemaxnames=\count372
+\c@biburlbigbreakpenalty=\count373
+\c@biburlbreakpenalty=\count374
+\c@biburlnumpenalty=\count375
+\c@biburlucpenalty=\count376
+\c@biburllcpenalty=\count377
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count378
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count379
+\c@bbx:relatedtotal=\count380
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count381
+\c@cbx@tempcntb=\count382
+\c@cbx@tempcntc=\count383
+\c@cbx@tempcntd=\count384
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-04-29 L3 programming layer (loader) 
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-04-20 L3 backend support: XeTeX
+\g__graphics_track_int=\count385
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count386
+\g__pdf_backend_annotation_int=\count387
+\g__pdf_backend_link_int=\count388
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2022-04-29 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/blx-case-expl3.sty
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
+)) (/home/sam_brum/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2022/04/30 3.74 The Babel package
+\babel@savecnt=\count389
+\U@D=\dimen139
+\l@unhyphenated=\language2
+
+(/home/sam_brum/.miktex/texmfs/install/tex/generic/babel/xebabel.def
+(/home/sam_brum/.miktex/texmfs/install/tex/generic/babel/txtbabel.def))
+\bbl@readstream=\read3
+\bbl@dirlevel=\count390
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/babel-portuges/brazil.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'Portuguese' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 53.
+
+Package babel Info: Making " an active character on input line 143.
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/babel-portuges/portuguese.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+)) (/home/sam_brum/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/home/sam_brum/.miktex/texmfs/install/tex/generic/oberdiek/hyphsubst.sty
+Package: hyphsubst 2016/05/16 v0.3 Substitute hyphenation patterns (HO)
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/lipsum/lipsum.sty
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/l3packages/l3keys2e/l3keys2e.s
+ty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count391
+\l__lipsum_a_int=\count392
+\l__lipsum_b_int=\count393
+ (/home/sam_brum/.miktex/texmfs/install/tex/latex/lipsum/lipsum.ltd.tex))
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip71
+\f@nch@O@elh=\skip72
+\f@nch@O@erh=\skip73
+\f@nch@O@olh=\skip74
+\f@nch@O@orh=\skip75
+\f@nch@O@elf=\skip76
+\f@nch@O@erf=\skip77
+\f@nch@O@olf=\skip78
+\f@nch@O@orf=\skip79
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count394
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 
+142.
+
+\mult@box=\box51
+\multicol@leftmargin=\dimen140
+\c@unbalance=\count395
+\c@collectmore=\count396
+\doublecol@number=\count397
+\multicoltolerance=\count398
+\multicolpretolerance=\count399
+\full@width=\dimen141
+\page@free=\dimen142
+\premulticols=\dimen143
+\postmulticols=\dimen144
+\multicolsep=\skip80
+\multicolbaselineskip=\skip81
+\partial@page=\box52
+\last@line=\box53
+\maxbalancingoverflow=\dimen145
+\mult@rightbox=\box54
+\mult@grightbox=\box55
+\mult@firstbox=\box56
+\mult@gfirstbox=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count400
+\c@columnbadness=\count401
+\c@finalcolumnbadness=\count402
+\last@try=\dimen146
+\multicolovershoot=\dimen147
+\multicolundershoot=\dimen148
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count403
+) (/home/sam_brum/.miktex/texmfs/install/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/04/16 v5.0m Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count404
+\float@exts=\toks19
+\float@box=\box96
+\@float@everytoks=\toks20
+\@floatcapt=\box97
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen151
+\captionmargin=\dimen152
+\caption@leftmargin=\dimen153
+\caption@rightmargin=\dimen154
+\caption@width=\dimen155
+\caption@indent=\dimen156
+\caption@parindent=\dimen157
+\caption@hangindent=\dimen158
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count405
+\c@continuedfloat=\count406
+Package caption Info: float package is loaded.
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/listings/listings.sty
+\lst@mode=\count407
+\lst@gtempboxa=\box98
+\lst@token=\toks21
+\lst@length=\count408
+\lst@currlwidth=\dimen159
+\lst@column=\count409
+\lst@pos=\count410
+\lst@lostspace=\dimen160
+\lst@width=\dimen161
+\lst@newlines=\count411
+\lst@lineno=\count412
+\lst@maxwidth=\dimen162
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count413
+\lst@skipnumbers=\count414
+\lst@framebox=\box99
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/algorithms/algorithm.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks22
+\c@algorithm=\count415
+)
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count416
+\c@ALG@rem=\count417
+\c@ALG@nested=\count418
+\ALG@tlm=\skip82
+\ALG@thistlm=\skip83
+\c@ALG@Lnr=\count419
+\c@ALG@blocknr=\count420
+\c@ALG@storecount=\count421
+\c@ALG@tmpcounter=\count422
+\ALG@tmplength=\skip84
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/home/sam_brum/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/home/sam_brum/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count423
+\Gm@cntv=\count424
+\c@Gm@tempcnt=\count425
+\Gm@bindingoffset=\dimen163
+\Gm@wd@mp=\dimen164
+\Gm@odd@mp=\dimen165
+\Gm@even@mp=\dimen166
+\Gm@layoutwidth=\dimen167
+\Gm@layoutheight=\dimen168
+\Gm@layouthoffset=\dimen169
+\Gm@layoutvoffset=\dimen170
+\Gm@dimlist=\toks23
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+
+Package biblatex Warning: Load 'inputenc' before biblatex.
+
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count426
+\@quotereset=\count427
+(Passeio do Cavalo.aux)
+\openout1 = `"Passeio do Cavalo.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
+6.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+Package biblatex Info: Trying to load language 'portuguese'...
+Package biblatex Info: ... file 'portuguese.lbx' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/lbx/portuguese.lbx
+File: portuguese.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'brazil'...
+Package biblatex Info: ... file 'brazil.lbx' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/lbx/brazil.lbx
+File: brazil.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/lbx/brazilian.lbx
+File: brazilian.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/lbx/brazilian.lbx
+File: brazilian.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/home/sam_brum/.miktex/texmfs/install/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `"Passeio do Cavalo.bcf"'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '"Passeio do Cavalo".bbl' found.
+
+(Passeio do Cavalo.bbl)
+Package biblatex Info: Reference section=0 on input line 66.
+Package biblatex Info: Reference segment=0 on input line 66.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count428
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=48.0pt
+* \marginparsep=10.0pt
+* \columnsep=30.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 79.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 79.
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
+[]\TU/lmr/m/n/12 O problema original consiste em
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 92--98
+\TU/lmr/m/n/12 solucionar o problema, essecialmente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--98
+\TU/lmr/m/n/12 realizando ”caminhadas cegas”pelo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--98
+\TU/lmr/m/n/12 tabuleiro e retrocedendo um passo
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 99--102
+\TU/lmr/m/n/12 é através de heurísticas, regras gerais
+ []
+
+
+Underfull \hbox (badness 6944) in paragraph at lines 99--102
+\TU/lmr/m/n/12 que abrem mão de algum aspecto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
+\TU/lmr/m/n/12 de uma solução completa, como
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 99--102
+\TU/lmr/m/n/12 precisão, optimização, ou completeza
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
+[]\TU/lmr/m/n/12 Uma Heurística notável para o
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 111.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
+\TU/lmr/m/n/12 função []\TU/lmtt/m/n/12 void passeio(int x, int y)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
+\TU/lmr/m/n/12 que, ao ser chamada, realizasse o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
+\TU/lmr/m/n/12 algorítmo de \TU/lmr/m/it/12 backtracking \TU/lmr/m/n/12 para o
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 108--112
+\TU/lmr/m/n/12 passeio do cavalo em um tabuleiro
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--120
+[]\TU/lmr/m/n/12 A função passeio como foi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--120
+\TU/lmr/m/n/12 implementada serve como casca
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--120
+\TU/lmr/m/n/12 para a chamada da função, onde
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--120
+\TU/lmr/m/n/12 são ajustados todos os parâmetros
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 113--120
+\TU/lmr/m/n/12 o grosso da implementação. Nela é
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+[]\TU/lmr/bx/n/12 function
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+[] \TU/lmr/bx/n/12 for $\OML/cmm/m/it/12 movimento$ \TU/lmr/m/n/12 in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+[] \TU/lmr/bx/n/12 if $\OML/cmm/m/it/12 Backtracking\OT1/cmr/m/n/12 (\OML/cmm/m
+/it/12 casa \OT1/cmr/m/n/12 +
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 137--141
+[]\TU/lmr/m/n/12 Mesmo assim, essa implementação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--141
+\TU/lmr/m/n/12 ingênua apresenta um problema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--141
+\TU/lmr/m/n/12 de performânce, uma vez que a
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 137--141
+\TU/lmr/m/n/12 implementação possui $\OMS/cmsy/m/n/12 O\OT1/cmr/m/n/12 (8[])$\T
+U/lmr/m/n/12 , já que
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[1
+
+
+]
+Underfull \hbox (badness 4060) in paragraph at lines 142--147
+\TU/lmr/m/n/12 em ordenar os movimentos possíveis
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 142--147
+\TU/lmr/m/n/12 dos quadrados que possuem o menor
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 142--147
+\TU/lmr/m/n/12 número de movimentos válidos até o
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 142--147
+\TU/lmr/m/n/12 maior número de movimentos válidos.
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 148--152
+[]\TU/lmr/m/n/12 O conceito é intuitivo, já que as
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 148--152
+\TU/lmr/m/n/12 são mais prováveis de apresentarem
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 158--162
+\TU/lmr/m/n/12 com os piores casos na ordem de
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 158--162
+\TU/lmr/m/n/12 o suficiente, a depender da aplicação
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 163--166
+[]\TU/lmr/m/n/12 Os resultados com o formato de
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 163--166
+\TU/lmr/m/n/12 saída exigidos e o tempo de cada
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--166
+\TU/lmr/m/n/12 uma das soluções encontram-se no
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 163--166
+\TU/lmr/m/n/12 arquivo \TU/lmr/bx/n/12 saida.txt\TU/lmr/m/n/12 , seguidas do te
+mpo
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 163--166
+\TU/lmr/m/n/12 de execução de cada uma delas, em
+ []
+
+
+LaTeX Warning: Empty bibliography on input line 168.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2] (Passeio do Cavalo.aux)
+Package logreq Info: Writing requests to '"Passeio do Cavalo".run.xml'.
+\openout1 = `"Passeio do Cavalo.run.xml"'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14370 strings out of 412901
+ 268432 string characters out of 2855875
+ 1133732 words of memory out of 3000000
+ 34883 multiletter control sequences out of 15000+600000
+ 472988 words of font info for 50 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 60i,11n,68p,851b,5305s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+Output written on Passeio do Cavalo.pdf (2 pages).
